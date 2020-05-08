@@ -140,19 +140,9 @@ section#about div.widget-title {
 	margin-top: 0px
 
 }
-section#about div.widget-content{
-	vertical-align: bottom;
-	margin-top: 0px;
-	margin-bottom: -10px;
-	height: 350px;
-}
-
-section#about div.widget-content img{
-	align-items: center;
-	margin: 30px 150px 0px 150px;
 
 
-}
+
 p{
 	text-align: center;
 	color: white;
@@ -237,7 +227,7 @@ div.widget-content a:hover{
  	color: #ff6e7f;
  }
 
-/*----------------------------------------------Contactez nous-------------------------------------------------------------*/
+/*----------------------------------------------Contactez moi-------------------------------------------------------------*/
 
 div#contact p{
 	margin-left: 15px;
@@ -254,27 +244,98 @@ div#contact a{
 	padding: 20px;
 	margin-left: 15px;
 	font-size: 17px;
-	
-	
 }
+
+/*--------------------------------------------A propos de moi-------------------------------------------------------------------*/
+
+div#widget-content-about{
+	background-image: url(../Images/bertin.png);
+	max-height: 200px;
+	background-position: center;
+	background-repeat: no-repeat;
+  	background-size: cover;
+  	height: 75%;
+ }
+
+ div#widget-content-about p {
+ 	padding-top: 200px;
+ }
 
 
 
 
 /*----------------------------------LE pied  de page-----------------------------------------------------------------------------*/
+section#footer {
+	
+	background-color: #16161e;
+	background: #100f15;
+	margin: -10px;
+	margin-top: 20px;
+	padding: 20px;
+	
+}
 
-footer {
-	
-	overflow: hidden;
+section#footer div.pieddepage {
 	display: flex;
-	justify-content: center;
-	align-items: flex-end;
-	/*padding: 50%;*/
-	width: 100%;
-	/*padding-bottom: 50px;*/
-	/*padding-top: 50px;*/
-	margin-left: -10px;
-	margin-right: -25px;
-	/*background-color: purple;*/
+	flex-direction: column;
+	width: 20%; 
 	
+}
+
+
+.pieddepage p{
+	padding: 10px;
+	margin-left: 15px;
+}
+
+.pieddepage a{
+	padding: 10px;
+	margin-left: 15px;
+	text-decoration: none;
+	color: #ffff;
+}
+
+.signature pre{
+	padding: 10px;
+	color: #ffff;
+	font-size: 15px;
+	text-align: center;
+}
+
+.form form{
+	color: #ffff;
+}
+.form form button{
+	border-style: none;
+	background-color: #78787b;
+}
+
+.form form button:hover{
+	background-color: #100f15;
+ 	color: #ff6e7f;
+ }
+/*
+.pieddepage button{
+	 border-radius: 5%;
+	 border-style: 1px solid #03DFED;
+	 background-color: #03DFED;
+}
+
+
+
+/*div#contact p{
+	margin-left: 15px;
+	padding: 20px;
+	color: white;
+	font-size: 17px;
+}
+
+
+div#contact a{
+	color: white;
+	text-decoration: none;
+	display: flex;
+	padding: 20px;
+	margin-left: 15px;
+	font-size: 17px;
 }

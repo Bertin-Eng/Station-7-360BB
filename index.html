@@ -9,6 +9,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
 </head>
 <body>
 	<header>
@@ -37,9 +39,8 @@
 			<div class="widget-title">
 				<p>A PROPOS DE MOI</p>
 			</div>
-			<div class="widget-content">
-				<img src="Images/avatar.jpg" width="200" alt="moi">
-				<p>Bonjour je suis Bertin !!, technicien reseau et infrastructure. je me preoccupe particulierement du deploiement et de la securite de votre infrastructure TI. Routage et communication, Application Web, installation et Administration de Windows Server 2016+, Automatisation et Scripting, et Securite entre autres</p>
+			<div id="widget-content-about">
+				<p>Bonjour je suis Bertin !!, technicien réseau et infrastructure. je me préoccupe particulierement de l'architecture, du déploiement et de la sécurite de votre infrastructure TI. Routage et communication, Creation de site Web, installation et Administration de serveurs securisés (Windows Server 2016 et 2019), Automatisation et Scripting, et Sécurite entre autres</p>
 			</div>
 		</section>
 	</div>
@@ -80,11 +81,24 @@
 
 
 	
-	<footer style="max-width: 100%; height: auto;">
+	<section id="footer"style="max-width: 100%; height: auto;">
 		<div class="pieddepage">
-			<pre>1995632@bdeb.qc.ca - &copy; Travail final All rights reserved 480-2020.</pre>
+			<p class="fa fa-map">   862  Notre-Dame-de-Graces, Longueuil (Qc) J4J 3E7</p>
+			<a href="mailto:1995632@bdb.qc.ca" class="text-email" title="Nous envoyer un courriel?"><span style='font-size:20px;'>&#128231;</span>Station7@bdeb.qc.ca</a>
+			<a href="tel:+1438530-1634" class="text-telephone" title="Nous joindre maintenant ?"><span style='font-size:20px;'>&#128222;</span>+1 (438) 530-1634</a>
 		</div>
-	</footer>
+		<div class="form">
+			<form style="float: right;" method="post">
+				<label for="email">Email</label>
+				<input id="email" type="email" placeholder="Abonnez-vous" name="" required>
+				<button type="submit">S'inscrire</button>
+			</form>
+		</div>
+		<div class="signature">
+			<pre>Bertin ENGOUDOU | Travail final Web-360-BB | Infrastructure & Securite- &copy;  All rights reserved 05-2020.</pre>
+		</div>
+		
+	</section>
 	<script>
 	function myFunction() {
 	  var x = document.getElementById("myTopnav");
