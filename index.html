@@ -9,6 +9,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Faster+One&display=swap" rel="stylesheet">
 
 
 </head>
@@ -16,6 +17,7 @@
 	<header>
 		<div class="hautdepage">
 			<a href="mailto:1995632@bdb.qc.ca" class="text-email" title="Nous envoyer un courriel?"><span style='font-size:20px;'>&#128231;</span> Station7@bdeb.qc.ca</a>
+			<p>Station 7.Inc</p>
 			<a href="tel:+1438530-1634" class="text-telephone" title="Nous joindre maintenant ?"><span style='font-size:20px;'>&#128222;</span>+1 (438) 530-1634</a>
 		</div>
 		<div class="nav-bar"></div>
@@ -26,14 +28,24 @@
 			<a href="portofolio.html">Portofolio</a>
 			<a href="espace-tech.html">Espace-Tech</a>
 			<a  style="float: right;" href="login.html">Login</a>
-			<a href="javascript: void(0);" class="icon" onclick="myFunction()">
+			<a href="javascript: void(0);" class="icon" onclick="myFunction(event)">
 				<i class="fa fa-bars"></i>
 			</a>
 		</div>
 	</header>
 	<div id="content">
 		<div class="left-box">
-			<p>je suis la boite de gauche</p>
+			<h1>MON PROJET D'ENTREPRISE: HEBERGEMENT WEB</h1>
+			<blockquote>
+				Avec la participation de : 
+			</blockquote>
+			<a href="https://www.cfpriverains.qc.ca/?gclid=CjwKCAjwte71BRBCEiwAU_V9h6MbOi3GTu_U1bs7Yc-FN_AzFQKaKhDrLv4IOw6KDhPRQitf15cZchoCZzwQAvD_BwE" target="Blank"><img class="riverain" src="Images/riverain.png" alt="CFP des Riverain" title=""></a>
+			<a href="https://www.insacollege.com/" target="Blank"><img class="insa" src="Images/insacollege.jpg" alt="insacollege"></a>
+			<a href="http://www.cfpmoulins.qc.ca/" target="Blank"><img class="moulins" src="Images/moulins.png" alt="CFP des Moulins" title="" ></a>
+			<blockquote>
+				Station 7 Inc, est une entreprise individuelle de technologie et d’infrastructure TI basée à Longueuil, Québec dont la mission est de promouvoir le déploiement et la réussite sur le web aussi bien des personnes que des petites et moyennes entreprises, ayant à cœur leur réussite en ligne. 
+				Avec une expertise avérée dans le domaine de la sécurité informatique, Station 7 Inc s’inscrit dans la fourniture de solutions web puissantes et abordables (Hébergement et serveurs, Nom de domaine, Site web, Email, marketing web et sécurité informatique). Avec la connexion récente par la fibre optique, du continent africain au continent américain, ce sont des opportunités de création de richesses immenses qui s’ouvrent aux jeunes. La digitalisation est en plein essor et dans un avenir très proche, les centres de données et autres établissements dans le même secteur d’activité seront grandement sollicités ; c’est la raison première de notre présence en plus de la nécessité d'être les pionniers ou du moins les tous premiers à se lancer dans le domaine sur la côte ouest africaine, en terme d'initiative privée.  
+			</blockquote>
 		</div>
 		<section id="about" style="float: right;">
 			<div class="widget-title">
@@ -46,7 +58,12 @@
 	</div>
 	<div id="content">
 		<div class="left-box">
-			<p>je suis la boite de gauche</p>
+			<h1>Notre offre de service</h1>
+			<img class="serveur" src="Images/serveur.png" alt="serveur dedie">
+			<img class="web" src="Images/hebergement.png" alt="Hebergement et site web" title="solution hebergement">
+			<img class="secure" src="Images/protection.png" alt="protection de l'identite" title="">
+			<img class="spam" src="Images/spam.png" alt="Service anti spam" title="solution courriel">
+			<img class="ssl" src="Images/ssl.png" alt="securisation" title="solution securite">
 		</div>
 		<section id="followus" style="float: right;">
 			<div class="widget-title">
@@ -75,12 +92,6 @@
 			</div>
 		</section>
 	</div>
-		
-		
-
-
-
-	
 	<section id="footer"style="max-width: 100%; height: auto;">
 		<div class="home-icon">
 			<a href="index.html"><i class="fa">&#xf015;</i></a>
@@ -90,6 +101,7 @@
 			<a href="mailto:1995632@bdb.qc.ca" class="text-email" title="Nous envoyer un courriel?"><span style='font-size:20px;'>&#128231;</span>Station7@bdeb.qc.ca</a>
 			<a href="tel:+1438530-1634" class="text-telephone" title="Nous joindre maintenant ?"><span style='font-size:20px;'>&#128222;</span>+1 (438) 530-1634</a>
 		</div>
+		<hr>
 		<div class="form">
 			<form style="float: right;" method="post">
 				<label for="email">Email</label>
@@ -100,10 +112,9 @@
 		<div class="signature">
 			<pre>Bertin ENGOUDOU | Travail final Web-360-BB | Infrastructure & Securite- &copy;  All rights reserved 05-2020.</pre>
 		</div>
-		
 	</section>
 	<script>
-	function myFunction() {
+	function myFunction(event) {
 	  var x = document.getElementById("myTopnav");
 	  if (x.className === "topnav") {
 	    x.className += " responsive";

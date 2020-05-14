@@ -21,6 +21,12 @@ div.hautdepage{
  
 }
 
+.hautdepage p{
+	font-family: Faster One;
+	font-size: 30px;
+	color: #78787B;
+}
+
 .hautdepage a:hover{
 	color: #ff6e7f;
 }
@@ -112,13 +118,62 @@ div#content div{
 div#content div.left-box{
 	width: 80%;
 	margin-left: 25px;
-	background-color: white;
+	background-color: floralwhite;
 	width: 900px;
-	height: 400px;
+	height: 500px;
 }
 
-/*.widget-title{
-	background-color: black;
+.left-box p{
+	color: black;
+}
+
+.left-box h1{
+	margin: 10px;
+}
+img.riverain{
+	width: 200px;
+	height: 50px;
+	padding: 10px;
+	margin-left: 100px;
+}
+img.insa{
+	width: 128px;
+	height: 128px;
+}
+
+img.moulins{
+	width: 200px;
+	height: 80px;
+}
+
+img.serveur{
+	width:  120px; 
+	height: 140px;
+	margin: 20px;
+}
+
+img.web{
+	width:  140px; 
+	height: 120px;
+	margin: 20px;
+}
+
+img.spam{
+	width:  130px; 
+	height: 130px;
+	margin: 20px;
+}
+
+img.ssl{
+	width:  140px; 
+	height: 120px;
+	margin: 20px;
+}
+
+img.secure{
+	width:  140px; 
+	height: 120px;
+	margin: 20px;
 }
 /*--------------------------------les sections de droite----------------------------------------------------------*/
 section#about {
@@ -419,7 +474,7 @@ section#contact-form{
 	height: 500px;
 }
 
-.widget-title{
+.widget-head{
 	margin-top: 80px;
 	margin-right: 100px;
 	margin-left: 100px;
@@ -431,7 +486,7 @@ section#contact-form{
 	font-weight: bold;
 }
 
-.widget-title h4{
+.widget-head h4{
 	color: #ffff;
 }
 
@@ -489,3 +544,157 @@ section#contact-form{
 	box-shadow: 0 12px 16px 0 rgba(192,192,192,0.5), 0 17px 50px 0 rgba(192,192,192,0.7);
 }
 
+/*-------------------------------------------------------page Blog------------------------------------------------------------*/
+
+section#blog{
+	height: 1000px;
+	background-color: floralwhite;
+}
+
+.first-box{
+	width: 80%;
+	margin-top: 30px;
+	margin-left: 25px;
+	width: 900px;
+	height: 400px;
+}
+
+.first-box p{
+	color: black;
+	margin-top: -10px;
+
+}
+
+.first-box h1{
+	font-weight: bold;
+
+}
+
+.first-box a{
+	text-decoration: none;
+}
+.img img{
+	margin-left: 20px;
+}
+
+
+/*---------------------------------------------page de login--------------------------------------------*/
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #100f15;
+  color: #78787b;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
