@@ -52,7 +52,9 @@
 				<p>A PROPOS DE MOI</p>
 			</div>
 			<div id="widget-content-about">
-				<p>Bonjour je suis Bertin !!, technicien réseau et infrastructure. je me préoccupe particulierement de l'architecture, du déploiement et de la sécurite de votre infrastructure TI. Routage et communication, Creation de site Web, installation et Administration de serveurs securisés (Windows Server 2016 et 2019), Automatisation et Scripting, et Sécurite entre autres</p>
+				<p>
+					Salut moi c'est Bertin, technicien réseau et infrastructure. Je me préoccupe l'architecture, du déploiement et de la sécurite de votre infrastructure TI. Routage et communication, création de site Web, installation et Administration de serveurs securisés (Windows Server 2016 et 2019), Automatisation et Scripting, sont entre autres les taches que je peux assurer pour adapter votre vision a votre infrastructure.
+				</p>
 			</div>
 		</section>
 	</div>
@@ -64,6 +66,9 @@
 			<img class="secure" src="Images/protection.png" alt="protection de l'identite" title="">
 			<img class="spam" src="Images/spam.png" alt="Service anti spam" title="solution courriel">
 			<img class="ssl" src="Images/ssl.png" alt="securisation" title="solution securite">
+			<blockquote>
+				Notre offre de service comprend une gamme variée de solutions informatiques qui s'adaptent aux besoins de nos clients. Que vous soyez un particulier ou une PME, nous saurons vous adapter votre système informatique selon vos exigences.<br> En partenariat avec <a href="https://www.dell.com/fr-ca/work/shop/serveurs-stockage-et-r%C3%A9seautique/poweredge-r340/spd/poweredge-r340/pe_r340_p3">Dell</a> , bénéficiez des dernières solutions de stockage de vos données en toute quiétude à travers sa dernière génération de serveurs PowerEdge et augmentez votre productivité d'environ de plus de 18%. A côté de ça beneficiez de nos prix préférentiels sur les services de messagerie Anti-Spam, la création de sites transactionnels et naturellement de la sécurisation de votre busness.<br> A distance ou en présencielle, dormez l'esprit tranquil.
+			</blockquote>
 		</div>
 		<section id="followus" style="float: right;">
 			<div class="widget-title">
@@ -79,7 +84,10 @@
 	</div>
 	<div id="content">
 		<div class="left-box">
-			<p>je suis la boite de gauche</p>
+			<figure>
+				<iframe src="https://www.youtube.com/embed/1MHqe7Lx2Do" controls="" width="250" height="150"></iframe>
+				<p>Dell EMC PowerEdge R340</p>
+			</figure>
 		</div>
 		<section id="contact" style="float: right;">
 			<div class="widget-title">
@@ -89,6 +97,14 @@
 				<p class="fa fa-map  " >  862  Notre-Dame-de-Graces, Longueuil (Qc) J4J 3E7</p>
 				<a href="mailto:1995632@bdb.qc.ca" class="text-email" title="Nous envoyer un courriel?"><span style='font-size:20px;'>&#128231;</span>Station7@bdeb.qc.ca</a>
 				<a href="tel:+1438530-1634" class="text-telephone" title="Nous joindre maintenant ?"><span style='font-size:20px;'>&#128222;</span>+1 (438) 530-1634</a>
+			</div>
+			<div class="tech-title">
+				<p>ESPACE TECH</p>
+			</div>
+			<div class="tech-item">
+				<img class="mySlides" src="images/raspberry.jpg" width="400">
+				<img class="mySlides" src="images/mycloudex2.jpg" width="400">
+				<img class="mySlides" src="images/D6000.jpg" width="400">
 			</div>
 		</section>
 	</div>
@@ -123,6 +139,22 @@
 	  }
 	}
 	</script>
+	<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 5000); // Change image every 2 seconds
+}
+</script>
 
 </body>
 </html>

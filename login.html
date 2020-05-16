@@ -9,50 +9,93 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css2?family=Faster+One&display=swap" rel="stylesheet">
+	
+
 </head>
 <body>
-	<h2>Modal Login Form</h2>
-
-<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
-
-<div id="id01" class="modal">
-  
-  <form class="modal-content animate" action="/action_page.php" method="post">
-    <div class="imgcontainer">
-      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-      <img src="img_avatar2.png" alt="Avatar" class="avatar">
-    </div>
-
-    <div class="container">
-      <label for="uname"><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" name="uname" required>
-
-      <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
-        
-      <button type="submit">Login</button>
-      <label>
-        <input type="checkbox" checked="checked" name="remember"> Remember me
-      </label>
-    </div>
-
-    <div class="container" style="background-color:#f1f1f1">
-      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-      <span class="psw">Forgot <a href="#">password?</a></span>
-    </div>
-  </form>
-</div>
-
-<script>
-// Get the modal
-var modal = document.getElementById('id01');
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
-</script>
+	<header>
+		<div class="hautdepage">
+			<a href="mailto:1995632@bdb.qc.ca" class="text-email" title="Nous envoyer un courriel?"><span style='font-size:20px;'>&#128231;</span> Station7@bdeb.qc.ca</a>
+			<p>Station 7.Inc</p>
+			<a href="tel:+1438530-1634" class="text-telephone" title="Nous joindre maintenant ?"><span style='font-size:20px;'>&#128222;</span>+1 (438) 530-1634</a>
+		</div>
+		<div class="nav-bar"></div>
+		<div class="topnav">
+			<a  href="#Accueil" class="active">Accueil</a>
+			<a href="blog.html">Blog</a>
+			<a href="contact.html">Contact</a>
+			<a href="portofolio.html">Portofolio</a>
+			<a href="espace-tech.html">Espace-Tech</a>
+			<a  style="float: right;" href="login.html">Login</a>
+			<a href="javascript: void(0);" class="icon" onclick="myFunction(event)">
+				<i class="fa fa-bars"></i>
+			</a>
+		</div>
+	</header>
+	<section id="login">
+		<div class="container">
+			<form action="/action_page.php" method="post">
+				<div class="row">
+					<h2>Bienvenue ! Ici on parle Informatique</h2>
+					<div  class="vl">
+						<span class="vl-innertext">ou</span>
+					</div>
+					<div class="col">
+						<a href="https://www.facebook.com/"class="fb btn" >
+							<i class="fa fa-facebook fa-fw"></i>facebook
+						</a>
+						<a href="https://twitter.com/login"class="twitter btn" >
+							<i class="fa fa-twitter fa-fw"></i>twitter
+						</a>
+						<a href="https://accounts.google.com/ServiceLogin/signinchooser"class="google btn" >
+							<i class="fa fa-google fa-fw"></i>Google+
+						</a>
+						<a href="https://www.youtube.com/"class="youtube btn" >
+							<i class="fa fa-youtube fa-fw"></i>Youtube
+						</a>
+					</div>
+					<div class="col">
+						<div class="hide-md-lg">
+							<p>Ou bien se connecter manuellement:</p>
+						</div>
+						<input type="text" name="Pseudo" placeholder="Pseudo" required>
+						<input type="password" name="Mot de passe" placeholder="Mot de passe" required>
+						<input type="submit" value="Connexion">
+					</div>
+				</div>
+			</form>
+		</div>
+		<div class="botom-container">
+			<div class="row">
+				<div class="col">
+				     <a href="" style="color:white" class="btn">S'inscrire</a>
+				</div>
+				<div class="col">
+					<a href="#" style="color: #ffff" class="btn">Mot de passe oublié ?</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="footer"style="max-width: 100%; height: auto;">
+		<div class="home-icon">
+			<a href="index.html"><i class="fa">&#xf015;</i></a>
+		</div>
+		<div class="pieddepage">
+			<p class="fa fa-map">   862  Notre-Dame-de-Graces, Longueuil (Qc) J4J 3E7</p>
+			<a href="mailto:1995632@bdb.qc.ca" class="text-email" title="Nous envoyer un courriel?"><span style='font-size:20px;'>&#128231;</span>Station7@bdeb.qc.ca</a>
+			<a href="tel:+1438530-1634" class="text-telephone" title="Nous joindre maintenant ?"><span style='font-size:20px;'>&#128222;</span>+1 (438) 530-1634</a>
+		</div>
+		<hr>
+		<div class="form">
+			<form style="float: right;" method="post">
+				<label for="email">Email</label>
+				<input id="email" type="email" placeholder="Abonnez-vous" name="" required>
+				<button type="submit">S'inscrire</button>
+			</form>
+		</div>
+		<div class="signature">
+			<pre>Bertin ENGOUDOU | Travail final Web-360-BB | Infrastructure & Securite- &copy;  All rights reserved 05-2020.</pre>
+		</div>
+	</section>
 </body>
 </html>
