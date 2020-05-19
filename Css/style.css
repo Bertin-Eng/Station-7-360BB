@@ -120,7 +120,11 @@ div#content div.left-box{
 	margin-left: 25px;
 	background-color: floralwhite;
 	width: 900px;
-	height: 500px;
+	height: 550px;
+}
+
+.left-box a:hover{
+	color: #ff6e7f;
 }
 
 .left-box p{
@@ -230,11 +234,12 @@ section#followus div.widget-content{
 	margin-bottom: -10px;
 	height: 250px;
 	padding: 20px 30px 5px;
+	text-align: center;
 }
 
 
-section#followus div.widget-content img{
-	margin: 30px 100px 0px 200px;
+section#followus div.widget-content a{
+	text-align: center;
 
 }
 
@@ -274,7 +279,7 @@ section#contact div.tech-title{
 	margin-top: 50px
 }
 
-div.tech-item {
+/*div.tech-item {
 	display: flex;
 	flex-direction: column;
 	width: 30%;
@@ -285,13 +290,33 @@ div.tech-item {
 
 }
 
-div.tech-item img{
+/*div.tech-item img{
 	align-items: center;
-}
+}*/
 
 .mySlides{
 	display: none;
 }
+
+div.tech-item{
+	max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+
 
 /*---------------------------------------------MEdia Sociaux---------------------------------------------------------------------*/
 
@@ -580,12 +605,13 @@ section#contact-form{
 /*-------------------------------------------------------page Blog------------------------------------------------------------*/
 
 section#blog{
-	height: 1000px;
+	height: 4000px;
 	background-color: floralwhite;
+	color: black;
 }
 
 .first-box{
-	width: 80%;
+	width: 100%;
 	margin-top: 30px;
 	margin-left: 25px;
 	width: 900px;
@@ -595,6 +621,7 @@ section#blog{
 .first-box p{
 	color: black;
 	margin-top: -10px;
+	text-align: left;
 
 }
 
